@@ -9,6 +9,31 @@ header {
     margin: 0 ;
 }
 
+
+footer{
+    background-color:#1F2937 ;
+    color: white;
+    padding: 0;
+    margin: 0 ;
+    padding: 0;
+    margin: 0;
+}
+
+button{
+    background-color: #3882f6;
+    color: white;
+    border-radius: 10px;
+    /* background: url(paper.gif); */
+    /* background-position: left top; */
+    /* background-repeat: repeat; */
+    padding: 8px 28px;
+    margin: 10px;
+    /* width: px; */
+    /* height: 10px; */
+    
+
+}
+
 #landing-info{
     background-color:#1F2937 ;
     color: white;
@@ -19,5 +44,17 @@ header {
 }
 
 #random-info{
+    color: #1F2937;
+    
+}
+
+
+#call-to-action{  
+    padding: 50px;
+    color: white;
+    background-color: #3882f6;
+    /* width:; */
+    margin: 100px;
 
 }
+
