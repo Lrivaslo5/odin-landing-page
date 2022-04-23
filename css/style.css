@@ -6,16 +6,24 @@ header {
     background-color:#1F2937 ;
     color: white;
     height: 20px;
-    padding: 10px 50px;
+    padding: 10px 60px;
     margin: 0 ;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-weight: bolder;
 
 }
 header a{
     padding: 20px;
 }
+
+header nav ul li{
+    font-weight: 300;
+    font-size: small;
+    margin: 10px;
+}
+
 header *{
     display: inline;
 }
@@ -48,28 +56,43 @@ button{
 nav ul li{
     /* float: right;
     display: inline; */
-}
+/* } */
 
 #landing-info{
+    display: grid;
     background-color:#1F2937 ;
     color: white;
-    padding: 0;
-    margin: 0 ;
-    padding: 50px;
+    padding: 50px 75px;
     margin: 0;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 50px;
+
 }
 
-#random-info{
-    color: #1F2937;
-    padding: 20px;
+#first-section{
     
+}
+
+#random-info {
+    color: #1F2937;
+    padding: 20px;    
+}
+
+#random-info {
+    color: #1F2937;
+    padding: 20px;   
+    text-align: center;
+}
+
+#figures{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 #quote{
     background-color: #E5E7EB;
     padding: 100px;
 }
-
 
 #call-to-action{  
     padding: 50px;
