@@ -52,7 +52,6 @@ button{
     margin:0;
     padding: 0;
 }
-
 nav ul li{
     /* float: right;
     display: inline; */
@@ -75,18 +74,17 @@ nav ul li{
 
 #random-info {
     color: #1F2937;
-    padding: 20px;    
+    padding: 10px;   
+    text-align: center;
 }
 
-#random-info {
-    color: #1F2937;
-    padding: 20px;   
-    text-align: center;
+#random-info h2{
+    padding: 20px 20px 30px;
 }
 
 #figures{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 #quote{
@@ -102,4 +100,3 @@ nav ul li{
     margin: 100px;
 
 }
-
