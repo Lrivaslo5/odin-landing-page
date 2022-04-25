@@ -47,6 +47,12 @@ button{
 
 }
 
+.component img{
+    border-style: solid;
+    border-radius: 5px;
+
+}
+
 /* nav ul{ */
     /* list-style-type: none;
     margin:0;
@@ -85,6 +91,7 @@ nav ul li{
 #figures{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+
 }
 
 #quote{
